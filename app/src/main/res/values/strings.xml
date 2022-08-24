@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Recipe Recommender</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Password_info">Password must contain at least 8 characters, one uppercase character, one lowercase character, one special character (!%+*) and one number.</string>
+    <string name="account_amp_settings"><![CDATA[Account & Settings]]></string>
+    <string name="log_out">Log Out</string>
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="no_results_txt">Your search did not return any results. Try using fewer filters or a different search term.</string>
+
+    <string-array name="meal_list">
+        <item>All</item>
+        <item>Breakfast</item>
+        <item>Appetizer</item>
+        <item>Main Course</item>
+        <item>Dessert</item>
+        <item>Snack</item>
+        <item>Drink</item>
+    </string-array>
+
+    <string-array name="cuisine_list">
+        <item>All</item>
+        <item>British</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Chinese</item>
+        <item>Mexican</item>
+        <item>Japanese</item>
+        <item>Thai</item>
+        <item>American</item>
+        <item>French</item>
+    </string-array>
+
+    <string-array name="sortby_list">
+        <item>Relevance</item>
+        <item>Name</item>
+        <item>Time</item>
+        <item>Calories</item>
+    </string-array>
+
+</resources>

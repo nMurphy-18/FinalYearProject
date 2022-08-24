@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colourPrimary">#689f38</color>
+    <color name="colourPrimaryLight">#99d066</color>
+    <color name="colourPrimaryDark">#387002</color>
+    <color name="colourSecondary">#fb8c00</color>
+    <color name="colourSecondaryLight">#ffbd45</color>
+    <color name="colourSecondaryDark">#c25e00</color>
+
+    <style name="CustomTabStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

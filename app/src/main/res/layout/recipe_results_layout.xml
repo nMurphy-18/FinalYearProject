@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/recipeResultCard"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/recipe_result_card_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/recipeResultImg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintBottom_toBottomOf="@+id/recipeResultCard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/recipeResultCard" />
+
+    <TextView
+        android:id="@+id/recipeResult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:maxLines="2"
+        app:layout_constraintEnd_toEndOf="@+id/recipeResultCard"
+        app:layout_constraintStart_toEndOf="@+id/recipeResultImg"
+        app:layout_constraintTop_toTopOf="@+id/recipeResultCard" />
+
+    <TextView
+        android:id="@+id/recipeResultNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="75"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/recipeResultImg"
+        app:layout_constraintTop_toBottomOf="@+id/recipeResult" />
+
+    <TextView
+        android:id="@+id/recipeResultNumberTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Minutes"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/recipeResultCard"
+        app:layout_constraintStart_toEndOf="@+id/recipeResultNumber"
+        app:layout_constraintTop_toBottomOf="@+id/recipeResult" />
+
+    <TextView
+        android:id="@+id/recipeResultKcal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="564"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/recipeResultImg"
+        app:layout_constraintTop_toBottomOf="@+id/recipeResultNumber" />
+
+    <TextView
+        android:id="@+id/recipeResultKcalTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:text="Kcal"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/recipeResultCard"
+        app:layout_constraintStart_toEndOf="@+id/recipeResultNumber"
+        app:layout_constraintTop_toBottomOf="@+id/recipeResultNumberTxt" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
